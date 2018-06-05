@@ -9,7 +9,7 @@ TARGET_SCREEN_WIDTH := 768
 
 ## Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := gt510wifi
-PRODUCT_NAME := rr_gt510wifi
+PRODUCT_NAME := aicp_gt510wifi
 PRODUCT_BRAND := samsung
 PRODUCT_MODEL := SM-T550
 PRODUCT_MANUFACTURER := samsung
