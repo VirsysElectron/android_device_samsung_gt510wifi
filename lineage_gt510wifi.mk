@@ -17,8 +17,8 @@ PRODUCT_CHARACTERISTICS := tablet
 PRODUCT_GMS_CLIENTID_BASE := android-samsung
 
 # Set build fingerprint / ID / Product Name ect.
+BUILD_FINGERPRINT=samsung/gt510wifixx/gt510wifi:7.1.1/NMF26X/T550XXU1CQJ6:user/release-keys
 PRODUCT_BUILD_PROP_OVERRIDES += \
   TARGET_DEVICE=gt510wifi \
   PRODUCT_NAME=gt510wifixx \
-  BUILD_FINGERPRINT=samsung/gt510wifixx/gt510wifi:7.1.1/NMF26X/T550XXU1CQJ6:user/release-keys \
   PRIVATE_BUILD_DESC="gt510wifixx-user 7.1.1 NMF26X T550XXU1CQJ6 release-keys"

@@ -1,0 +1,2 @@
+#============= perfd ==============
+unix_socket_connect(perfd, thermal, thermal-engine)
