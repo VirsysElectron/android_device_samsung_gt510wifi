@@ -91,7 +91,6 @@ allow init proc:file { getattr open read setattr write };
 allow init sysfs:file { open setattr write };
 
 allow init sysfs_leds:lnk_file read;
-
 allow init sysfs_graphics:file setattr;
 
 allow init system_file:file execute_no_trans;
@@ -108,12 +107,10 @@ allow init system_server:binder call;
 allow init sysfs:file read;
 
 allow init hal_health_hwservice:hwservice_manager add;
-
 allow init sysfs_mmc_host:file read;
 dontaudit init sysfs_mmc_host:file open;
-
 allow init self:netlink_kobject_uevent_socket { read create setopt bind };
-
-allow init hal_lineage_power_hwservice:hwservice_manager add;
+allow init servicemanager:binder call;
+allow init vndbinder_device:chr_file read;
 
 
