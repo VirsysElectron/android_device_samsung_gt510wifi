@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2018 The LineageOS Open Source Project
+# Copyright (C) 2019 The LineageOS Open Source Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -14,7 +14,8 @@
 # limitations under the License.
 #
 
-LOCAL_PATH := device/samsung/gt510wifi
-
 PRODUCT_MAKEFILES := \
 	$(LOCAL_DIR)/lineage_gt510wifi.mk
+
+COMMON_LUNCH_CHOICES := \
+    lineage_gt510wifi-userdebug
