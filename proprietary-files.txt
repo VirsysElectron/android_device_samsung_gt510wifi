@@ -1,5 +1,12 @@
 # Samsung Package Version T550XXU1CQL5_T550OJV1CQK3_TUR (unless otherwise specified and/or tagged)
 
+# Samsung Package Version T560NUUEU1BPI3_T560NUXAC1BPI3_XAC (unless otherwise specified and/or tagged)
+
+# Audio
+lib/libaudiosa.so
+lib/libmysound.so
+lib/soundfx/libaudioeffectoffload.so
+lib/soundfx/libmyspace.so
 # ACDBs
 etc/Bluetooth_cal.acdb
 etc/General_cal.acdb

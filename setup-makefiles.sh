@@ -20,7 +20,7 @@ set -e
 
 # Required!
 export DEVICE=gt510wifi
-export DEVICE_COMMON=gte-common
+export DEVICE_COMMON=msm8916-common
 export VENDOR=samsung
 
 export SETUP_DEVICE_DIR=1
