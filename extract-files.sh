@@ -1,7 +1,6 @@
 #!/bin/bash
 #
-# Copyright (C) 2016 The CyanogenMod Project
-# Copyright (C) 2017 The LineageOS Project
+# Copyright (C) 2019 The LineageOS Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -20,7 +19,7 @@ set -e
 
 # Required!
 export DEVICE=gt510wifi
-export DEVICE_COMMON=gte-common
+export DEVICE_COMMON=msm8916-common
 export VENDOR=samsung
 
 export SETUP_DEVICE_DIR=1
