@@ -14,15 +14,16 @@
 #  limitations under the License.
 #
 
-$(call inherit-product, $(SRC_TARGET_DIR)/product/languages_full.mk)
+PRODUCT_HARDWARE := gt510wifi
 
 # Inherit from common
 $(call inherit-product, device/samsung/msm8916-common/msm8916.mk)
 
-#Inherit from vendor
+# Inherit from vendor
 $(call inherit-product-if-exists, vendor/samsung/gt510wifi/gt510wifi-vendor.mk)
 
-LOCAL_PATH := device/samsung/gt510wifi
+# Inherit all languages
+$(call inherit-product, $(SRC_TARGET_DIR)/product/languages_full.mk)
 
 # Include package config fragments
 include $(LOCAL_PATH)/product/*.mk
