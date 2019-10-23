@@ -17,4 +17,4 @@
 VENDOR_PATH := device/samsung/gt510wifi
 
 # SELinux
-BOARD_SEPOLICY_DIRS += $(VENDOR_PATH)/sepolicy
+BOARD_SEPOLICY_DIRS += $(VENDOR_PATH)/sepolicy_tmp
