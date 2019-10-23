@@ -14,7 +14,9 @@
 #  limitations under the License.
 #
 
+LOCAL_PATH := device/samsung/gt510wifi
 PRODUCT_HARDWARE := gt510wifi
+PRODUCT_SHIPPING_API_LEVEL := 21
 
 # Inherit from common
 $(call inherit-product, device/samsung/msm8916-common/msm8916.mk)
@@ -28,7 +30,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/languages_full.mk)
 # Include package config fragments
 include $(LOCAL_PATH)/product/*.mk
 
-# Common overlay
+# Overlays
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
 
 # Camera
