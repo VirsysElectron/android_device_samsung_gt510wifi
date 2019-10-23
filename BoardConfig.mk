@@ -14,6 +14,9 @@
 #  limitations under the License.
 #
 
+# Inherit from common
+$(call inherit-product, device/samsung/msm8916-common/BoardConfigCommon.mk)
+
 LOCAL_PATH := device/samsung/gt510wifi
 
 # Audio
