@@ -15,7 +15,7 @@
 #
 
 # Inherit from common
-$(call inherit-product, device/samsung/msm8916-common/BoardConfigCommon.mk)
+include device/samsung/msm8916-common/BoardConfigCommon.mk
 
 LOCAL_PATH := device/samsung/gt510wifi
 
@@ -53,4 +53,3 @@ BOARD_FLASH_BLOCK_SIZE := 131072
 # Ramdisk
 BOARD_ROOT_EXTRA_FOLDERS := dsp efs firmware firmware-modem persist
 BOARD_ROOT_EXTRA_SYMLINKS += /data/tombstones:/tombstones
-
