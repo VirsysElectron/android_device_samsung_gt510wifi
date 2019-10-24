@@ -14,11 +14,10 @@
 #  limitations under the License.
 #
 
-LOCAL_PATH := device/samsung/gt510wifi
 PRODUCT_HARDWARE := gt510wifi
 PRODUCT_SHIPPING_API_LEVEL := 21
 
-# Inherit from common
+# Inherit from msm8916-common
 $(call inherit-product, device/samsung/msm8916-common/msm8916.mk)
 
 # Inherit from vendor
