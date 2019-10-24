@@ -16,6 +16,14 @@
 */
 -->
 <resources>
-<!-- Width for the notification panel and related windows -->
+
+    <!-- Doze: does this device support STATE_DOZE and STATE_DOZE_SUSPEND?  -->
+    <bool name="doze_display_state_supported">true</bool>
+    
+    <!-- Width for the notification panel and related windows -->
     <dimen name="standard_notification_panel_width">496dp</dimen><!-- includes notification_side_padding on each side -->
+
+    <!-- Smart replies in notifications: Whether we disable the feature unless the app targets P -->
+    <bool name="config_smart_replies_in_notifications_requires_targeting_p">false</bool>
+
 </resources>
