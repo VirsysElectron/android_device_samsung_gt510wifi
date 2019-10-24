@@ -14,8 +14,6 @@
 #  limitations under the License.
 #
 
-TARGET_BOOTLOADER_BOARD_NAME := gt510wifi
-
 # Inherit from common
 include device/samsung/msm8916-common/BoardConfigCommon.mk
 
