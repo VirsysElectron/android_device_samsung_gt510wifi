@@ -17,7 +17,7 @@
 # Inherit from common
 include device/samsung/msm8916-common/BoardConfigCommon.mk
 
-LOCAL_PATH := device/samsung/gt510wifi
+DEVICE_PATH := device/samsung/gt510wifi
 
 # Audio
 USE_QCOM_MIXER_PATHS := 1
