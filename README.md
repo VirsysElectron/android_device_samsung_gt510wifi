@@ -1,6 +1,6 @@
-# Unified Device Tree for Samsung Galaxy Tab A 9.7" WiFi (gt510wifi)
+# Unified Device Tree for Samsung Galaxy Tab A 9.7" WiFi
 
-For building Android for Samsung Galaxy Tab A 9.7" WiFi.
+For building Android for Samsung Galaxy Tab A 9.7" WiFi (gt510wifi).
 
 The Galaxy Tab A 9.7 WiFi (codenamed "gt510wifi") is a mid-range tablet from Samsung. It was announced in April 2015.
 
