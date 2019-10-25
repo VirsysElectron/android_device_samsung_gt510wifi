@@ -65,24 +65,11 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 # Power Manager
 PRODUCT_PROPERTY_OVERRIDES += \
-	pm.sleep_mode=1 \
-	ro.ril.disable.power.collapse=1
+	pm.sleep_mode=1
 
 # WiFi
 PRODUCT_PROPERTY_OVERRIDES += \
 	wifi.interface=wlan0
-
-# NITZ
-PRODUCT_PROPERTY_OVERRIDES += \
-	persist.rild.nitz_plmn="" \
-	persist.rild.nitz_long_ons_0="" \
-	persist.rild.nitz_long_ons_1="" \
-	persist.rild.nitz_long_ons_2="" \
-	persist.rild.nitz_long_ons_3="" \
-	persist.rild.nitz_short_ons_0="" \
-	persist.rild.nitz_short_ons_1="" \
-	persist.rild.nitz_short_ons_2="" \
-	persist.rild.nitz_short_ons_3=""
 
 # Boot
 PRODUCT_PROPERTY_OVERRIDES += \
@@ -106,18 +93,8 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_PROPERTY_OVERRIDES += \
 	ro.sf.lcd_density=160
 
-# Telephony
-PRODUCT_PROPERTY_OVERRIDES += \
-	telephony.lteOnCdmaDevice=0
-
 # Treble
 persist.media.treble_omx=false
-
-# Radio
-PRODUCT_PROPERTY_OVERRIDES += \
-	persist.radio.snapshot_enabled=1 \
-	persist.radio.snapshot_timer=22 \
-	persist.radio.lte_vrte_ltd=1
 
 # Volume
 PRODUCT_PROPERTY_OVERRIDES += \
