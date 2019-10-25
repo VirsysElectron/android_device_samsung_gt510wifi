@@ -19,9 +19,6 @@ include device/samsung/msm8916-common/BoardConfigCommon.mk
 
 DEVICE_PATH := device/samsung/gt510wifi
 
-# Audio
-USE_QCOM_MIXER_PATHS := 1
-
 # Include board config fragments
 include device/samsung/gt510wifi/board/*.mk
 
