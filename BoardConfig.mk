@@ -28,9 +28,6 @@ include device/samsung/gt510wifi/board/*.mk
 # Asserts
 TARGET_OTA_ASSERT_DEVICE := gt510wifi,gt510wifixx,SM-T550
 
-# Bluetooth
-BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := $(LOCAL_PATH)/bluetooth
-
 # Init
 TARGET_LIBINIT_MSM8916_DEFINES_FILE := $(LOCAL_PATH)/init/init_gta.cpp
 
