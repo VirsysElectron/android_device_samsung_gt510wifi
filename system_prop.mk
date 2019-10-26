@@ -41,6 +41,23 @@ PRODUCT_PROPERTY_OVERRIDES += \
 	persist.audio.calfile5=/vendor/etc/acdbdata/Headset_cal.acdb \
 	persist.audio.calfile6=/vendor/etc/acdbdata/Speaker_cal.acdb
 
+# Display
+PRODUCT_PROPERTY_OVERRIDES += \
+	ro.opengles.version=196608 \
+	persist.hwc.mdpcomp.enable=1 \
+    debug.enable.sglscale=1 \
+    debug.egl.hw=1 \
+    debug.sf.disable_hwc=0 \
+    persist.hwc.ptor.enable=true \
+    debug.sf.gpu_comp_tiling=1
+	debug.sf.recomputecrop=0 \
+	debug.sf.disable_backpressure=1 \
+	debug.sf.enable_gl_backpressure=1 \
+	debug.sf.latch_unsignaled=1 \
+	debug.cpurend.vsync=false \
+	debug.hwui.use_buffer_age=false \
+	ro.sf.lcd_density=360
+
 # USB debugging at boot
 PRODUCT_PROPERTY_OVERRIDES += \
 	persist.sys.usb.config=mtp,adb  \

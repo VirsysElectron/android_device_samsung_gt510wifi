@@ -23,6 +23,9 @@ $(call inherit-product, device/samsung/msm8916-common/msm8916.mk)
 # Inherit from vendor
 $(call inherit-product-if-exists, vendor/samsung/gt510wifi/gt510wifi-vendor.mk)
 
+# Include proprietary blobs
+$(call inherit-product-if-exists, vendor/samsung/gte-common/gte-common-vendor.mk)
+
 # Inherit all languages
 $(call inherit-product, $(SRC_TARGET_DIR)/product/languages_full.mk)
 
