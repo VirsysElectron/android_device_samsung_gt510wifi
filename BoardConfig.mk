@@ -31,8 +31,10 @@ TARGET_LIBINIT_MSM8916_DEFINES_FILE := $(LOCAL_PATH)/init/init_gta.cpp
 # Lights
 TARGET_PROVIDES_LIBLIGHT := false
 
-# Keymaster
-TARGET_PROVIDES_KEYMASTER := true
+# RIL
+BOARD_VENDOR := samsung
+BOARD_MODEM_TYPE := xmm7260
+BOARD_PROVIDES_LIBRIL := true
 
 # Kernel
 TARGET_KERNEL_VARIANT_CONFIG := msm8916_sec_gt510wifi_eur_defconfig
