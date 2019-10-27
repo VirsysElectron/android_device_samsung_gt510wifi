@@ -60,7 +60,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 # USB debugging at boot
 PRODUCT_PROPERTY_OVERRIDES += \
-	persist.sys.usb.config=mtp,adb  \
+	persist.sys.usb.config=mtp,adb \
 	ro.adb.secure=0 \
 	ro.secure=0 \
 	ro.debuggable=1 \
@@ -110,9 +110,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
 # Screen
 PRODUCT_PROPERTY_OVERRIDES += \
 	ro.sf.lcd_density=160
-
-# Treble
-persist.media.treble_omx=false
 
 # Volume
 PRODUCT_PROPERTY_OVERRIDES += \
