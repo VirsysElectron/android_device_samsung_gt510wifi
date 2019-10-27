@@ -100,7 +100,8 @@ PRODUCT_PROPERTY_OVERRIDES += \
 # Disable RIL
 PRODUCT_PROPERTY_OVERRIDES += \
 	ro.carrier=wifi-only \
-	ro.radio.noril=1
+	ro.radio.noril=yes \
+    ro.vendor.radio.noril=yes
 
 # RAM
 PRODUCT_PROPERTY_OVERRIDES += \
