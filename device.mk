@@ -35,6 +35,10 @@ include $(LOCAL_PATH)/product/*.mk
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
 
+# Boot animation
+TARGET_SCREEN_WIDTH := 768
+TARGET_SCREEN_HEIGHT := 1024
+
 # Ramdisk
 PRODUCT_PACKAGES += \
 	init.target.rc

@@ -19,10 +19,6 @@ $(call inherit-product, device/samsung/gt510wifi/device.mk)
 # Release name
 PRODUCT_RELEASE_NAME := Samsung Galaxy Tab A 9.7 WiFi
 
-# Boot animation
-TARGET_SCREEN_WIDTH := 768
-TARGET_SCREEN_HEIGHT := 1024
-
 # Inherit some common Lineage stuff.
 $(call inherit-product, vendor/lineage/config/common_full_tablet_wifionly.mk)
 
