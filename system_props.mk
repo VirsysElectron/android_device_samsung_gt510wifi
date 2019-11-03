@@ -56,7 +56,11 @@ PRODUCT_PROPERTY_OVERRIDES += \
 	debug.sf.latch_unsignaled=1 \
 	debug.cpurend.vsync=false \
 	debug.hwui.use_buffer_age=false \
-	ro.sf.lcd_density=360
+	ro.sf.lcd_density=240
+
+# Treble
+PRODUCT_PROPERTY_OVERRIDES += \
+persist.media.treble_omx=false
 
 # USB debugging at boot
 PRODUCT_PROPERTY_OVERRIDES += \
