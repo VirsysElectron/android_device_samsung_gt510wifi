@@ -2,7 +2,7 @@
 $(call inherit-product-if-exists, vendor/samsung/gt510wifi/gt510wifi-vendor.mk)
 
 # Inherit from common
-$(call inherit-product, device/samsung/gte-common/device-common.mk)
+$(call inherit-product, device/samsung/gta-common/device-common.mk)
 
 LOCAL_PATH := device/samsung/gt510wifi
 
