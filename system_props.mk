@@ -20,4 +20,5 @@ PRODUCT_PROPERTY_OVERRIDES += \
 	telephony.lteOnCdmaDevice=0
 
 # Treble
-persist.media.treble_omx=false
+PRODUCT_PROPERTY_OVERRIDES += \
+	persist.media.treble_omx=false
