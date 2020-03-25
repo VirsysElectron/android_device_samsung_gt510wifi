@@ -3,17 +3,19 @@ $(call inherit-product, device/samsung/gta-common/lineage.mk)
 
 $(call inherit-product, device/samsung/gt510wifi/device.mk)
 
+# Set device properties
+-include $(LOCAL_PATH)/device_props.mk
+
 # Release name
 PRODUCT_RELEASE_NAME := Samsung Galaxy Tab A 9.7 WiFi
 
 ## Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := gt510wifi
 PRODUCT_NAME := lineage_gt510wifi
-PRODUCT_BRAND := samsung
 PRODUCT_MODEL := SM-T550
+PRODUCT_BRAND := samsung
 PRODUCT_MANUFACTURER := samsung
 PRODUCT_CHARACTERISTICS := tablet
-
 PRODUCT_GMS_CLIENTID_BASE := android-samsung
 
 # Set build fingerprint / ID / Product Name ect.

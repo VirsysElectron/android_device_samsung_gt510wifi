@@ -15,7 +15,4 @@
 #
 
 LOCAL_PATH := device/samsung/gt510wifi
-PRODUCT_MAKEFILES := \
-	$(LOCAL_DIR)/rr_gt510wifi.mk \
-	$(LOCAL_DIR)/pa_gt510wifi.mk \
-	$(LOCAL_DIR)/lineage_gt510wifi.mk
+PRODUCT_MAKEFILES := $(LOCAL_DIR)/lineage_gt510wifi.mk

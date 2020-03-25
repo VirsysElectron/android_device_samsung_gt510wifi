@@ -75,6 +75,10 @@
          config_hardware_automatic_brightness_available is not set, so we will use software implementation -->
     <bool name="config_automatic_brightness_available">true</bool>
 
+    <!-- Default screen brightness setting.
+         Must be in the range specified by minimum and maximum. -->
+    <integer name="config_screenBrightnessSettingDefault">100</integer>
+
     <!-- Array of light sensor LUX values to define our levels for auto backlight brightness support.
          The N entries of this array define N  1 zones as follows:
          Zone 0:        0 <= LUX < array[0]
@@ -226,6 +230,8 @@
 
     <integer name="config_buttonBrightnessSettingDefault">0</integer>
 
+    <!-- Indicate whether the SD card is accessible without removing the battery. -->
+    <bool name="config_batterySdCardAccessibility">true</bool>
 
     <!-- Disable dreams. Interferes with ambient display. -->
     <bool name="config_dreamsSupported">false</bool>
@@ -254,4 +260,35 @@
          in darkness (although they may not be visible in a bright room). -->
     <integer name="config_screenBrightnessDark">10</integer>
 
+    <!-- Boolean indicating wheter smart battery is available or not. -->
+    <bool name="config_smart_battery_available">true</bool>
+
+    <!-- Values for GPS configuration -->
+    <string-array translatable="false" name="config_gpsParameters">
+        <item>XTRA_SERVER_1=https://xtrapath1.izatcloud.net/xtra3grc.bin</item>
+        <item>XTRA_SERVER_2=https://xtrapath2.izatcloud.net/xtra3grc.bin</item>
+        <item>XTRA_SERVER_3=https://xtrapath3.izatcloud.net/xtra3grc.bin</item>
+        <item>SUPL_HOST=supl.google.com</item>
+        <item>SUPL_PORT=7275</item>
+        <item>SUPL_VER=0x20000</item>
+        <item>SUPL_MODE=1</item>
+        <item>SUPL_ES=1</item>
+        <item>LPP_PROFILE=0</item>
+        <item>USE_EMERGENCY_PDN_FOR_EMERGENCY_SUPL=1</item>
+        <item>A_GLONASS_POS_PROTOCOL_SELECT=0</item>
+        <item>GPS_LOCK=0</item>
+    </string-array>
+
+    <!-- Whether or not swipe up gesture's opt-in setting is available on this device -->
+    <bool name="config_swipe_up_gesture_setting_available">true</bool>
+
+    <!-- The package name for the default wellbeing app.
+         This package must be trusted, as it has the permissions to control other applications
+         on the device.
+         Example: "com.android.wellbeing"
+     -->
+    <string name="config_defaultWellbeingPackage">com.google.android.apps.wellbeing</string>
+
+    <!-- Smart replies in notifications: Whether we disable the feature unless the app targets P -->
+    <bool name="config_smart_replies_in_notifications_requires_targeting_p">false</bool>
 </resources>
